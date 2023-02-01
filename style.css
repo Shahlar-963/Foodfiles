@@ -79,29 +79,19 @@ header .icon i {
   font-size: 20px;
 }
 @media screen and (max-width: 992px) {
-  #beautiful {
-    width: 1022px;
-  }
   #beautiful .box {
     width: 100%;
   }
   #beautiful .box h1 {
-    font-size: 68px;
-    margin-right: 80px;
+    margin-right: 0;
   }
   #beautiful .box h5 {
-    font-size: 20px;
-    margin: 25px 75px 50px 0;
+    font-size: 24px;
   }
   #beautiful .box .btn {
-    padding: 13px 30px;
-    font-size: 20px;
-    border-radius: 5px;
-    background-color: #37b7c3;
-    color: white;
+    font-size: 25px;
   }
   #beautiful .imgbox {
-    width: 100%;
     margin-top: 20px;
   }
 }
