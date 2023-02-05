@@ -121,6 +121,45 @@ header .icon i {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #thehome .textbox h1 {
+    font-size: 70px;
+    width: 400px;
+  }
+  #thehome .textbox h5 {
+    font-size: 25px;
+  }
+  #thehome .textbox .btn {
+    font-size: 30px;
+  }
+  #thehome .imgbox {
+    position: relative;
+    left: 60px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+  #thehome .textbox h5 {
+    margin: 25px 0 50px 36px;
+    font-size: 30px;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 35px;
+  }
+  #thehome .imgbox {
+    position: relative;
+    left: 0;
+  }
+}
 
 #works h1 {
   font-weight: 700;
