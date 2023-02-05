@@ -183,6 +183,54 @@ header .icon i {
   color: #676f8b;
   line-height: 1.3;
 }
+@media screen and (max-width: 992px) {
+  #works h1 {
+    font-size: 80px;
+    margin-left: 100px;
+  }
+  #works .box {
+    position: relative;
+    left: 50px;
+  }
+  #works .box .imgbox {
+    width: 100%;
+  }
+  #works .box .textbox {
+    padding: 0;
+  }
+  #works .box .textbox h2 {
+    font-size: 33px;
+    margin-bottom: 9px;
+  }
+  #works .box .textbox h4 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #works h1 {
+    font-size: 60px;
+    margin-left: 0;
+  }
+  #works .box {
+    position: relative;
+    left: 10px;
+  }
+  #works .box .imgbox {
+    width: 90%;
+  }
+  #works .box .textbox h2 {
+    font-size: 33px;
+  }
+  #works .box .textbox h4 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #works .box {
+    position: relative;
+    left: 30px;
+  }
+}
 
 #browse .textbox {
   width: 500px;
