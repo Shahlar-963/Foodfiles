@@ -423,6 +423,38 @@ header .icon i {
 #callour .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 992px) {
+  #callour .textbox h1 {
+    font-size: 50px;
+  }
+  #callour .textbox h5 {
+    font-size: 24px;
+  }
+  #callour .textbox .btn {
+    font-size: 24px;
+  }
+  #callour .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #callour .textbox {
+    text-align: center;
+  }
+  #callour .textbox h1 {
+    font-size: 40px;
+  }
+  #callour .textbox h5 {
+    font-size: 24px;
+  }
+  #callour .textbox .btn {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  #callour .imgbox {
+    width: 80%;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
