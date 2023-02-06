@@ -477,15 +477,34 @@ header .icon i {
   background-color: #35b6c1;
 }
 @media screen and (max-width: 992px) {
-  #support .imgbox {
-    margin-bottom: 15px;
-  }
   #support .textbox h1 {
+    font-size: 40px;
     margin: 0 70px 0 40px;
   }
   #support .textbox .btn {
-    font-size: 22px;
-    padding: 10px 30px;
-    margin: 30px 0 20px 40px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #support .imgbox {
+    margin-bottom: 25px;
+  }
+  #support .textbox {
+    padding: 100px 0;
+  }
+  #support .textbox h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #support {
+    position: relative;
+    left: 40px;
+  }
+  #support .textbox {
+    padding: 50px 0;
+  }
+  #support .textbox h1 {
+    font-size: 45px;
   }
 }/*# sourceMappingURL=style.css.map */
